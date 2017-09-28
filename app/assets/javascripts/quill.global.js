@@ -94,9 +94,7 @@
     };
 
     $( document ).on('ready page:change turbolinks:load', function() {
-        if ($('.ql-editor').length <= 0){
-            Quilljs.loadDefaults();
-        }
+      Quilljs.loadDefaults();
     });
 
 //Debounce function exported from underscore.js to sync the quill container with the hidden input field
