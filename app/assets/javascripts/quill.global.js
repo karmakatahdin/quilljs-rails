@@ -84,7 +84,7 @@
                 }, 500);
 
 
-            var quill_container = $('.quill_container');
+            var quill_container = $('textarea.fullwidth');
             if (quill_container.length > 0) {
                 quill_container.each(function (index, object) {
                     return create_quill_containers(index, object)
